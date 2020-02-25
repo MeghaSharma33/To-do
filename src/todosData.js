@@ -13,6 +13,12 @@ const todosData = [
         id: 3,
         text:"Groceries",
         completed:true
-    }
+    },
+    {
+
+        id: 4,
+        text:"Homework",
+        completed:false
+    }   
 ]
 export default todosData;

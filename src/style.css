@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: blanchedalmond;
 }
 .todo-list{
   background-color: white;
@@ -8,30 +8,30 @@ body {
   display:flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #efefef;
+  border: 1px solid black;
   box-shadow:
   /*top and consecutive*/
   0 1px 1px rgba(0,0,0,15),
-  0 10px 0 -5px #eee,
+  0 10px 0 -5px black,
   0 10px 1px -4px rgba(0,0,0,15),
-  0 20px 0 -10px #eee,
+  0 20px 0 -10px black,
   0 20px 1px -9px rgba(0,0,0,15);
   padding:30px;
 }
 
 .todo-item{
-  display:flex;
+  display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding:30px 20px 0;
-  width: 70%;
-  border-bottom: 1px solid #cecece;
-  font-family: cursive;
+  padding:20px 20px 0;
+  width: 150%;
+  border-bottom: 1px solid black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
   font-size: 15px;
   color: #333333;
 
 }
 input[type=checkbox]{
-  margin-right:10px;
+  margin-right:5px;
 }
